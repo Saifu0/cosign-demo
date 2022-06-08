@@ -1,4 +1,3 @@
 # Basic nginx dockerfile starting with Ubuntu 20.04.0
 FROM ubuntu:20.04
-RUN apt-get -y update
-RUN apt-get -y install nginx
+CMD echo "Hello World!"
